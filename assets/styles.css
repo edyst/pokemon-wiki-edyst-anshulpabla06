@@ -40,13 +40,14 @@ body {
   text-decoration: none;
 
 }
+
 .navlist1 {
   float: right;
   list-style-type: none;
 
 }
 
-.navlist1  {
+.navlist1 {
   color: #7f8c8d;
   display: block;
   padding: 5px;
@@ -55,12 +56,13 @@ body {
   text-decoration: none;
 
 }
+
 .nav_select {
   color: #7f8c8d;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
-  background: transparent;
+  background: #0000;
   border: none;
   cursor: pointer;
   outline: none;
@@ -70,7 +72,7 @@ body {
   background-color: #e65c00;
   width: 60px;
   height: 20px;
-  color: white;
+  color: #ffffff;
   border: none;
   outline: none;
   cursor: pointer;
@@ -78,15 +80,16 @@ body {
 }
 
 @media (max-width: 768px) {
-  
-  .nav{
-    text-align:center;
+
+  .nav {
+    text-align: center;
     display: flex;
-    flex-direction:column-reverse;
-    
+    flex-direction: column-reverse;
+
   }
 
 }
+
 /*MAIN SECTION*/
 .banner {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./images/back.jpeg");
@@ -99,13 +102,13 @@ body {
 
 #mainheading {
   font-size: 90px;
-  color: white;
+  color: #ffffff;
 }
 
 #subhead {
   margin-top: -1%;
   font-size: 33px;
-  color: white;
+  color: #ffffff;
   float: left;
 }
 
@@ -113,7 +116,7 @@ body {
   margin: 10px;
   font-size: 16px;
   background-color: #4992ca;
-  color: white;
+  color: #ffffff;
   border: none;
   cursor: pointer;
   padding: 13px 95px 13px 95px;
@@ -123,10 +126,10 @@ body {
 
 #course {
   margin: 10px;
-  background-color: transparent;
-  border: 2px solid white;
+  background-color: #0000;
+  border: 2px solid #ffffff;
   max-width: max-content;
-  color: white;
+  color: #ffffff;
   cursor: pointer;
   padding: 13px 65px 13px 65px;
   font-size: 16px;
@@ -141,7 +144,7 @@ body {
   padding: 1.5% 1.5% 13px 1.5%;
   font-size: 16px;
   color: black;
-  background-color: white;
+  background-color: #ffffff;
   max-width: max-content;
   cursor: pointer;
   float: left;
@@ -160,14 +163,14 @@ body {
 
   #mainheading {
     font-size: 60px;
-    color: white;
+    color: #ffffff;
   }
 }
 
 /*SECOND SECRTION*/
 .second {
   background-color: #4992ca;
-  color: white;
+  color: #ffffff;
   padding-left: 14%;
   padding-right: 14%;
   padding-top: 2%;
@@ -190,7 +193,7 @@ h4 {
 i {
 
   font-size: 45px;
-  color: white;
+  color: #ffffff;
 }
 
 .flex2 {
@@ -211,7 +214,7 @@ i {
 
 /*THIRD SECTION*/
 .third {
-  background-color: white;
+  background-color: #ffffff;
   color: black;
   padding-left: 14%;
   padding-right: 14%;
@@ -269,8 +272,8 @@ i {
 
 .logo1 {
   height: 50px;
-  padding-right: 2.1em; 
-  justify-content:center;
+  padding-right: 2.1em;
+  justify-content: center;
 }
 
 .logo_heading {
@@ -280,27 +283,29 @@ i {
 }
 
 .content {
-  font-weight:100;
-  color:gray;
+  font-weight: 100;
+  color: gray;
 }
-.fourh4{
+
+.fourh4 {
   font-size: 30px;
   font-weight: lighter;
   margin: 0px;
-  color:gray;
+  color: gray;
 }
-.fourh6{
+
+.fourh6 {
   font-size: 18px;
   color: #A9A9A9;
   margin: 0px;
-  font-weight:lighter;
+  font-weight: lighter;
 }
 
 @media (max-width: 768px) {
   .flexsub4 {
-     flex-direction:column;
-     flex-flow: row wrap;
-     justify-content:center;
+    flex-direction: column;
+    flex-flow: row wrap;
+    justify-content: center;
   }
 
 }
@@ -309,7 +314,7 @@ i {
 .QA {
 
   background-color: #4992ca;
-  color: white;
+  color: #ffffff;
   padding-left: 14%;
   padding-right: 14%;
   padding-top: 2%;
@@ -345,7 +350,7 @@ i {
 
 /*TABLE SECTION*/
 .sixth {
-  background-color: white;
+  background-color: #ffffff;
   padding-left: 14%;
   padding-right: 14%;
   padding-top: 2%;
@@ -408,7 +413,7 @@ td {
 #btn6 {
   font-size: 16px;
   background-color: #4992ca;
-  color: white;
+  color: #ffffff;
   border: none;
   cursor: pointer;
   padding: 13px 75px 13px 75px;
@@ -474,7 +479,7 @@ td {
   padding-top: 2%;
   padding-bottom: 2%;
   background-color: #4992ca;
-  color: white;
+  color: #ffffff;
 
 }
 
@@ -482,25 +487,29 @@ td {
   font-size: 45px;
   text-align: center;
 }
-.contenttrain{
+
+.contenttrain {
   font-weight: 100;
-  color:white;
+  color: #ffff;
 }
-.trainh4{
+
+.trainh4 {
   font-size: 30px;
   font-weight: lighter;
   margin: 0px;
-  color:white;
+  color: #ffffff;
 
   text-align: center;
 }
-.trainh6{
+
+.trainh6 {
   font-size: 18px;
-  color:white;
+  color: #ffffff;
   margin: 0px;
-   text-align: center;
-  font-weight:lighter;
+  text-align: center;
+  font-weight: lighter;
 }
+
 /*SEVENTH SECTION*/
 .seventh {
   background-color: #424242;
@@ -510,24 +519,24 @@ td {
 
 #heading7 {
   font-size: 45px;
-  color: white;
+  color: #ffffff;
 
 }
 
 .clickhere {
   border: 1px solid #fff;
   border-radius: 2px;
-  background-color: transparent;
+  background-color: #0000;
   cursor: pointer;
   padding: 13px 65px 13px 65px;
   font-size: 16px;
-  color: #fff;
+  color: #ffffff;
 }
 
 /*DESIGNER SECTION*/
 .designers {
   background-color: #4992ca;
-  color: white;
+  color: #ffffff;
   padding-left: 14%;
   padding-right: 14%;
   padding-top: 2%;
@@ -612,9 +621,9 @@ td {
 }
 
 .submitted {
-  border: 1px solid #fff;
+  border: 1px solid #ffffff;
   border-radius: 2px;
-  background-color: transparent;
+  background-color: #0000;
   cursor: pointer;
   padding: 14px 65px 14px 65px;
   font-size: 16px;
@@ -633,16 +642,16 @@ td {
 
 #headingmail {
   font-size: 45px;
-  color: white;
+  color: #ffffff;
 
 }
 
 @media (max-width: 768px) {
 
   .emailinput {
-    width:60%;
+    width: 60%;
     height: 48px;
-    margin-bottom:20px;
+    margin-bottom: 20px;
   }
 
   .submitted {
@@ -751,7 +760,7 @@ td {
 
 #lastheading {
   font-size: 45px;
-  color: white;
+  color: #ffffff;
 
 }
 
@@ -781,7 +790,7 @@ li {
 
 a {
   text-decoration: none;
-  color: white;
+  color: #ffffff;
 
 }
 
@@ -792,4 +801,5 @@ a {
 
 .footerlogo1 {
   font-size: 20px;
+
 }
